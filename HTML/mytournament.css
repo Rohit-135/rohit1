@@ -1,0 +1,148 @@
+body{
+    background-color: #02a8a8;
+    height:100%;
+}
+#header
+{
+    text-align: left;
+    color:#D1F5D3;
+    background-color: #07031a;
+    height:60px;
+    padding:5px;
+    padding-left:20px;
+    border-bottom:2px solid white;
+}
+.navbar{
+    background-color: #fa744f;
+    padding: 0px;
+    border-bottom:2px solid white;
+    height:60px;
+}
+.nav{
+    margin-right:30px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.navbar-nav{
+    margin-right:30px;
+    margin-left:30px;
+    font-weight: bold;
+    color: black;
+}
+.nav-link{
+    color: black;
+    font-size: medium;
+}
+.nav-link:hover{
+    color:white;
+    transition: .5s;
+}
+#container{
+    margin:0px 0px;
+    padding:0px;
+    background-color: #feceab;
+}
+#cont-head{
+    text-align:Center;
+    margin:0px;
+    padding:1%;
+    background-color: #07031a;
+    color:#D1F5D3;
+}
+.row{
+    margin:0px;
+    padding:1%;
+    text-align:center;
+    border:1px solid black;
+    background-color:#feceab;
+    color:#07031a;
+    font-size: larger;
+}
+.col1 , .col2 , .col3 , .col4{
+    padding:5px;
+    font-size: large;
+    font-size: 120%;
+}
+.cont-table .row{
+    background-color: #4f8a8b;
+}
+.row1{
+    font-weight: bolder;
+    background-color: #feceab;
+}
+.col-9{
+    font-size: larger;
+    vertical-align: text-bottom;
+}
+.btn{
+    border-radius: 50px;
+    border:2px solid;
+    border-color:black;
+    color:Black;
+    width:70%;
+}
+.btn:hover{
+    color:#D1F5D3;
+    background:#07031a;
+    border-color: #D1F5D3;
+}
+#cont-data .row{
+    margin:0px;
+    padding:1%;
+    border:1px solid black;
+    background-color:#feceab;
+    color:#07031a;
+    font-size: medium;
+}
+.row-player{
+    height:30px;
+    background-color: #07031a;
+    color:#d1f5d3;
+    text-align:center;
+    font-size: large;
+}
+select{
+    width:44%;
+}
+input{
+    border:2px solid white;
+    border-radius: 5px;;
+}
+.disc{
+    margin:0px;
+    padding: 4px 4px;
+    background-color: #07031a;
+    color: #D1F5D3;
+}
+.last{
+    border-radius: 50px;
+    border:2px solid;
+    border-color:black;
+    color:Black;
+    width:auto;
+    text-align: right;
+    margin-left:auto;
+}
+.last:hover{
+    color:#D1F5D3;
+    background:#07031a;
+    border-color: #D1F5D3;
+}
+.last-row{
+    border:2px solid red;
+    text-align:right;
+}
+#footer{
+    min-height:50px;
+    text-align:center;
+    background-color:#024249;
+}
+#p{
+    color:#D1F5D3;
+}
+.last-a{
+    color:white;
+}
+.last-a:hover{
+    color:#e8505b;
+}
